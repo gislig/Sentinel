@@ -21,8 +21,8 @@ jobs:
   deploy-content:
     runs-on: windows-latest
     env:
-      resourceGroupName: 'rg-fossar-sentinel'
-      workspaceName: 'la-fossar-sentinel'
+      resourceGroupName: 'rg-cloudops-sentinel'
+      workspaceName: 'la-cloudops-sentinel'
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_befa806b359f45f58dab73b4679336c7 }}
